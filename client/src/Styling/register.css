@@ -1,0 +1,56 @@
+
+.register input,textarea{
+    width:250px;
+    border-radius: 5px;
+    height:25px;
+    padding-left:10px;
+    margin-bottom: -2px;
+    margin-top: 10px;
+    border:1px solid rgb(189, 189, 189);
+}
+
+.register select{
+    width:265px;
+    border-radius: 5px;
+    height:30px;
+    padding-left:10px;
+    margin-bottom: -2px;
+    margin-top: 10px;
+    border:1px solid rgb(189, 189, 189);
+}
+.register textarea{
+    height:50px;
+}
+.register span{
+    color:red;
+    font-size: smaller;
+    padding:0 0 5px 5px;
+}
+
+.register input[type="submit"]{
+    width: 100px;
+    color:rgb(35, 108, 177);
+    background-color:rgba(102, 180, 253, 0.486) ;
+    cursor: pointer;
+}
+.register input[type="submit"]:hover{
+    color:white;
+    background-color:rgb(0, 104, 201) ;
+}
+
+.register input[type='file']{
+    border:1px solid rgb(189, 189, 189);
+    border-radius:5px;
+    background-color:white;
+}
+
+.register input[type='file']::file-selector-button{
+    padding:5px;
+    border:1px solid rgb(189, 189, 189);
+    border-top: none ;
+    border-bottom: none;
+    border-left: none;
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+}

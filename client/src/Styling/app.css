@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+}
+
+.nav-bar{
+    max-width:90%;
+    margin-left: 5%;
+}
+.nav-bar .link{
+    text-decoration: none;
+    display:inline-block;
+    padding:6px;
+    margin:10px;
+    background-color: rgb(0, 174, 255);
+    border-radius:6px;
+    color:white;
+    font-weight: bold;
+    width:100px;
+    text-align: center;
+}
+
+.logout{
+   text-decoration: none;
+   background-color: red;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding:5px 15px;
+    border-radius: 5px;
+    float :right
+}
